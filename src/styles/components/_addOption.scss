@@ -1,0 +1,19 @@
+.add-option {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 12px 12px;
+    background-color: $white;
+}
+
+.add-option-input {
+    margin: 0 12px 0 0;
+    padding: 12px 12px;
+    flex-grow: 1;
+    border: 1px solid $grey;
+    background-color: transparent;
+
+    &:focus {
+        border: 1px solid $navy-blue;
+    }
+}

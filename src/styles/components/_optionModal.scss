@@ -1,0 +1,23 @@
+.ReactModal__Content--after-open {
+    top: 20%;
+} 
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+  
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.selected-option-header {
+    color: $navy-blue;
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $grey;
+}
+
+.selected-option-text {
+    font-weight: 700;
+    font-size: 14px;
+}
