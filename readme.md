@@ -1,1 +1,1 @@
-### Hotels In Sri lanka - React app
+### Hotels in srilanka - React app
