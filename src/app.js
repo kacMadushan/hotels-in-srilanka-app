@@ -1,7 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'normalize.css/normalize.css';
+import { Provider } from 'react-redux';
+import configureStore from './store/configureStore';
+import AppRouter from './routers/AppRouter';
 import './styles/styles.scss';
-import IndecisionApp from './components/IndecisionApp';
 
-ReactDOM.render(<IndecisionApp />, document.getElementById('app'));
+const store = configureStore();
+
+const appRoot = (
+    <Provider store={store}>
+        <AppRouter />
+    </Provider>
+);
+
+ReactDOM.render(appRoot, document.getElementById('app'));

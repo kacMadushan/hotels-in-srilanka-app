@@ -1,0 +1,58 @@
+.hotels-list {
+    margin-bottom: 1.4rem !important;
+    width: 100%;
+    height: 220px;
+    min-height: 220px;
+    border-radius: 0;
+    border: 1px solid $light-grey;
+    box-shadow: 6px 10px 6px darken($white, 10%);
+}
+
+.hotel-thumb {
+    width: 100%;
+    height: 219px;
+    border-radius: 0;
+}
+
+.hotel-title {
+    margin-bottom: 10px;
+    color: $black;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.hotel-text {
+    margin-bottom: 0;
+    color: $sharp;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1.7;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.hotel-location {
+    color: $black;
+    font-weight: 500;
+    font-size: .8rem;
+    padding-right: 12px;
+}
+
+.hotel-telephone {
+    color: $black;
+    font-weight: 500;
+    font-size: .8rem;
+    padding-left: 12px;
+}
+
+.hotels-grid {
+    margin-bottom: 1.8rem;
+    width: 100%;
+    height: 460px;
+    min-height: 460px;
+    border-radius: 0;
+    border: 1px solid $light-grey;
+    box-shadow: 6px 10px 6px darken($white, 10%);
+}

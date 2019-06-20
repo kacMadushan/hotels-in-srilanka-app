@@ -1,18 +1,28 @@
 .header {
-    padding: 15px 0;
-    background-color: $off-blue;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 12px 0 20px;
+    background-color: $white;
+}
+
+.show-case {
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
 }
 
 .app-title {
-    color: $white;
-    font-weight: 700;
-    font-size: 24px;
-    margin: 0;
+    color: $dark-navy;
+    font-weight: 800;
+    font-size: 42px;
+    margin-bottom: 6px;
 }
 
-.app-subtile {
-    color: $light-grey;
-    font-weight: 300;
-    font-size: 15px;
-    margin: 0;
+.app-subtitle {
+    color: $black;
+    font-weight: 700;
+    font-size: 14px;
 }

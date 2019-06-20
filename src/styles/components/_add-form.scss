@@ -1,0 +1,17 @@
+.add-form {
+    margin: 2rem 0;
+}
+
+.custom-input {
+    height: 42px;
+    font-weight: 400;
+    font-size: 13px;
+    border-radius: 2rem;
+    box-shadow: 10px 0 10px 3px #eeeeee;
+    outline: none;
+
+    &:focus {
+        box-shadow: none !important
+    }
+
+}

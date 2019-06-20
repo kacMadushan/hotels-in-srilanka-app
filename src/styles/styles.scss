@@ -1,12 +1,10 @@
-@import './base/settings';
-@import './base/base';
-
-@import './components/container';
-@import './components/header';
-@import './components/action';
-@import './components/buttons';
-@import './components/options';
-@import './components/option';
-@import './components/addOption';
-@import './components/errors';
-@import './components/optionModal';
+// settings color,fonts...
+@import "./abstracts/variables";
+// base app style
+@import "./base/reset";
+// components styles
+@import "./components/header";
+@import "./components/hotels-filter";
+@import "./components/hotels";
+@import "./components/add-form";
+@import "./components/button";

@@ -1,15 +1,21 @@
 import React from 'react';
+//import Navbar from './Navbar';
 
 const Header = (props) => {
-    const { title, subtitle } = props;
     return (
-        <div className="header">
+        <header className="header">
             <div className="container">
-                <h1 className="app-title">{title}</h1>
-                <p className="app-subtile">{subtitle}</p>
+                <div className="row">
+                    <div className="col-sm-6 offset-sm-3">
+                        <div className="show-case">
+                            <h1 className="app-title">Hotels In Sri lanka</h1>
+                            <h3 className="app-subtitle">Pay When You Stay. Best Price Guarantee.</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </header>
     );
-};
+}
 
 export default Header;
